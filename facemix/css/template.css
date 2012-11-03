@@ -1,0 +1,97 @@
+@media only screen and (max-width: 767px) {
+	.container {margin-top: 0px !important; box-shadow: none !important; border-bottom: 1px solid #DDD;}
+	.container.template-meta {display: none !important;}
+}
+
+.container {
+	margin: 50px auto;
+	width: 320px;
+}
+
+.container.template-content {
+	height: 480px;
+	background-image: url('../../assets/bg3.png');
+	box-shadow: 0px 0px 10px #333;
+	overflow: hidden;
+}
+
+.container.template-meta {
+	color: #AAA;
+}
+
+.container.template-meta h1 {
+	font-size: 20px;
+	margin: 5px 0px;
+}
+
+.feature {
+	box-sizing: border-box;
+	width: 400px;
+	height: 320px;
+	margin-left: -80px;
+	box-shadow: 0px 2px 2px #333;
+	overflow: hidden;
+}
+
+.app {
+	box-sizing: border-box;
+	/*height: 40px;*/
+	margin-left: 10px;
+	margin-top: -40px;
+}
+
+.app .icon {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 11px;
+	box-shadow: 0px 2px 2px #333;
+	overflow: hidden;
+}
+
+.app .icon img {
+	width: 80px;
+	height: 80px;
+}
+
+.app .name {
+	display: inline-block;
+	font-size: 14px;
+	color: #666;
+	margin-left: 10px;
+	margin-top: 40px;
+	text-shadow: 1px 1px 0px #FFF;
+}
+
+.app .name small {
+	display: inline-block;
+	font-size: 12px;
+	color: #888;
+	text-shadow: 1px 1px 0px #FFF;
+}
+
+.app .desc {
+	font-size: 14px;
+	color: #696969;
+	line-height: 18px;
+	margin: 10px;
+	text-shadow: 1px 1px 0px #FFF;
+}
+
+.action {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.button {
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 6px 25px;
+	text-decoration: none;
+}
+
+.button.red {
+	color: RGBA(230, 113, 109, 1);
+	border: 3px solid RGBA(230, 113, 109, 1);
+	border-radius: 50px;
+}
